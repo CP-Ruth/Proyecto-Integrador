@@ -1,0 +1,22 @@
+img{
+    max-width: 15%;
+}
+
+/*  ----------------------------------------------------------------------- */
+
+
+
+
+/*  ----------------------------------------------------------------------- */
+.oradores{
+    max-width: 200px;
+}
+
+
+.row{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}

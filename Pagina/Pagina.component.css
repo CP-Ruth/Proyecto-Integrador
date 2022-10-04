@@ -2,6 +2,11 @@
     margin: 0%;
     padding: 0%;
 }
+.Header{
+    background-color: rgb(39, 37, 48);
+    color: aliceblue;
+    display: flex;
+}
 img{
     max-width: 15%;
 }
@@ -30,10 +35,30 @@ img{
 
 /*  ----------------------------------------------------------------------- */
 
+.parte4{
+    display: flex;
+}
+#playa{
+    max-width: 50%;
+}
+.playa-texto{
+    background-color: rgb(39, 37, 48);
+}
+#playa-texto{
+    margin: 10px;
+    color: aliceblue;
+}
+
+
+
+/*  ----------------------------------------------------------------------- */
 #piedepagina{
+    background-color: rgb(11, 59, 68);
+    color: aliceblue;
+    height: 2cm;
     font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: center;
 }

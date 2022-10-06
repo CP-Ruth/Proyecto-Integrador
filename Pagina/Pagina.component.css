@@ -2,14 +2,29 @@
     margin: 0%;
     padding: 0%;
 }
-.Header{
+/*  ----------------------------------------------------------------------- */
+header{
     background-color: rgb(39, 37, 48);
     color: aliceblue;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.opciones{
+    display: flex;
+}
+#p{
+    margin: 1em;
+}
+.ESI{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 img{
-    max-width: 15%;
+    max-width: 35%;
 }
+
 
 /*  ----------------------------------------------------------------------- */
 
@@ -20,6 +35,11 @@ img{
 
 
 /*  ----------------------------------------------------------------------- */
+.Conoce-a-los-oradores{
+    margin-right: 250px;
+    margin-left: 250px;
+
+}
 .oradores{
     max-width: 200px;
 }
@@ -29,8 +49,8 @@ img{
 }
 
 .card-img-top{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /*  ----------------------------------------------------------------------- */
@@ -49,7 +69,10 @@ img{
     color: aliceblue;
 }
 
-
+/*  ----------------------------------------------------------------------- */
+fieldset{
+    height: 150px;
+}
 
 /*  ----------------------------------------------------------------------- */
 #piedepagina{
